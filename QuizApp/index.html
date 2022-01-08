@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Codedamn - Quiz Project</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="highscores">
+        <a id="leaderboard" onclick="getData()"
+          >View Highscores <i class="fas fa-hand-point-left fa-lg"></i
+        ></a>
+      </div>
+      <div class="time">Time : <span id="time"></span></div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="landingScreen" id="landingScreen">
+          <h1>Coding Quiz Challenge</h1>
+          <p>
+            Try to answer to following code-related questions within the time
+            limit.
+          </p>
+          <p>
+            Keep in mind that incorrect answers will penalize your score/time by
+            10 seconds!
+          </p>
+          <button class="start" id="startQuiz" onclick="start()">
+            Start Quiz
+          </button>
+        </div>
+        <div class="quizScreen hide" id="quizScreen">
+          <div id="question">Hola</div>
+          <div id="options" onClick="getElement(event)">
+            <button id="one"></button>
+            <button id="two"></button>
+            <button id="three"></button>
+            <button id="four"></button>
+          </div>
+          <div id="comment" class="hide"></div>
+        </div>
+        <div id="timerEnd" class="hide">
+          <h1>All Done!</h1>
+          <div class="score">Your final score is <span id="score"></span></div>
+          <div class="initials">
+            Enter initials : <input type="text" value="" id="initials" />
+            <button class="submit" onclick="submitInitial()">Submit</button>
+          </div>
+        </div>
+        <div id="highScoreContainer" class="hide">
+          <h1>Highscores</h1>
+
+          <ol id="highscore">
+            No highscores found !
+          </ol>
+          <button class="submit" onclick="backBtn()">Back</button>
+          <button class="submit" onclick="clearHighscore()">
+            Clear Highscores
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
