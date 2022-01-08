@@ -1,6 +1,5 @@
 # 100DaysOfProject
-100DaysOfProject
-============
+
 
 This is a repositry with all the project challenges in Codedamn 100DaysOfProject.
 
