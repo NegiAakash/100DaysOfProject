@@ -1,6 +1,6 @@
 # 100DaysOfProject
 
-# Project 1 of 100 Days of Project
+# Project 1 of 20 for 100DaysOfProject
 
 This is the first project challenges in Codedamn 100DaysOfProject. A Quiz app made with HTML,CSS and JS.
 
