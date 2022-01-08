@@ -3,7 +3,7 @@
 
 This is a repositry with all the project challenges in Codedamn 100DaysOfProject.
 
-![Project 1 Preview]!(https://user-images.githubusercontent.com/20799422/148657104-fb8712bf-82cf-466e-8c69-1e7b8560be93.png)
+![Project 1 Preview](https://user-images.githubusercontent.com/20799422/148657122-24640d7d-1b60-4832-ae82-aedc25e9d349.png)
 
 
 ## Setup
